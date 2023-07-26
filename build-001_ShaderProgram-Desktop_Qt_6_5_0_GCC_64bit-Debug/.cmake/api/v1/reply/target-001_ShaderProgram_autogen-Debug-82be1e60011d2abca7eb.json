@@ -17,12 +17,12 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "000_HelloTriangle_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"id" : "001_ShaderProgram_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "000_HelloTriangle_autogen::@6890427a1f51a3e7e1df",
+	"id" : "001_ShaderProgram_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "000_HelloTriangle_autogen",
+	"name" : "001_ShaderProgram_autogen",
 	"paths" : 
 	{
 		"build" : ".",
@@ -51,19 +51,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/000_HelloTriangle_autogen",
+			"path" : "/home/CharSaMa/Programs/Projects/OpenGL_Study/build-001_ShaderProgram-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/001_ShaderProgram_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/000_HelloTriangle_autogen.rule",
+			"path" : "/home/CharSaMa/Programs/Projects/OpenGL_Study/build-001_ShaderProgram-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/001_ShaderProgram_autogen.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/000_HelloTriangle_autogen/timestamp.rule",
+			"path" : "/home/CharSaMa/Programs/Projects/OpenGL_Study/build-001_ShaderProgram-Desktop_Qt_6_5_0_GCC_64bit-Debug/001_ShaderProgram_autogen/timestamp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

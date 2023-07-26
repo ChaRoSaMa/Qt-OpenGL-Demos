@@ -1,0 +1,10 @@
+# ninja log v5
+2	468	1690381327144070408	001_ShaderProgram_autogen/timestamp	642f2a1a8a2b059e
+2	468	1690381327144070408	001_ShaderProgram_autogen/mocs_compilation.cpp	642f2a1a8a2b059e
+2	468	1690381327144070408	/home/CharSaMa/Programs/Projects/OpenGL_Study/build-001_ShaderProgram-Desktop_Qt_6_5_0_GCC_64bit-Debug/001_ShaderProgram_autogen/timestamp	642f2a1a8a2b059e
+2	468	1690381327144070408	/home/CharSaMa/Programs/Projects/OpenGL_Study/build-001_ShaderProgram-Desktop_Qt_6_5_0_GCC_64bit-Debug/001_ShaderProgram_autogen/mocs_compilation.cpp	642f2a1a8a2b059e
+469	4134	1690381330814032834	CMakeFiles/001_ShaderProgram.dir/mainwindow.cpp.o	f6092cb39c2517aa
+469	4494	1690381331174029159	CMakeFiles/001_ShaderProgram.dir/myglwidget.cpp.o	e8fca9c7443190b2
+469	4496	1690381331174029159	CMakeFiles/001_ShaderProgram.dir/main.cpp.o	91a75383ea256825
+469	4624	1690381331304027832	CMakeFiles/001_ShaderProgram.dir/001_ShaderProgram_autogen/mocs_compilation.cpp.o	57c270a8eb74d43d
+4624	5046	1690381331724023548	001_ShaderProgram	c8eae1e543beb080

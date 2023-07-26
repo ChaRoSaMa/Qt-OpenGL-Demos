@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-91350b5073666d70872c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "001_ShaderProgram",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "001_ShaderProgram::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-001_ShaderProgram-Debug-a036434e024e68bf5dda.json",
+					"name" : "001_ShaderProgram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "001_ShaderProgram_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-001_ShaderProgram_autogen-Debug-82be1e60011d2abca7eb.json",
+					"name" : "001_ShaderProgram_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "001_ShaderProgram_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-001_ShaderProgram_autogen_timestamp_deps-Debug-9710b9c2330b5b56b7d5.json",
+					"name" : "001_ShaderProgram_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/CharSaMa/Programs/Projects/OpenGL_Study/build-001_ShaderProgram-Desktop_Qt_6_5_0_GCC_64bit-Debug",
+		"source" : "/home/CharSaMa/Programs/Projects/OpenGL_Study/001_ShaderProgram"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
