@@ -1,5 +1,6 @@
 /home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/000_HelloTriangle_autogen/EWIEGA46WW/moc_myglwidget.cpp: /home/CharSaMa/Programs/Projects/OpenGL_Study/000_HelloTriangle/myglwidget.h \
   /home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/000_HelloTriangle_autogen/moc_predefs.h \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtCore/QPair \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtCore/q20memory.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtCore/q20type_traits.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtCore/qalgorithms.h \
@@ -108,7 +109,7 @@
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtCore/qversiontagging.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/QOpenGLFunctions \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/QOpenGLExtraFunctions \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/QSurfaceFormat \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qaction.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qbitmap.h \
@@ -125,6 +126,7 @@
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qopenglcontext.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qopenglcontext_platform.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qopenglext.h \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qopenglextrafunctions.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qopenglfunctions.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qpaintdevice.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qpalette.h \
@@ -140,6 +142,14 @@
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qtransform.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGL/QOpenGLFunctions_4_5_Core \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGL/QOpenGLVersionFunctions \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGL/QOpenGLVersionProfile \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGL/qopenglfunctions_4_5_core.h \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGL/qopenglversionfunctions.h \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGL/qopenglversionprofile.h \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGL/qtopenglexports.h \
+  /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGL/qtopenglglobal.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGLWidgets/QOpenGLWidget \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGLWidgets/qopenglwidget.h \
   /home/CharSaMa/Qt/6.5.0/gcc_64/include/QtOpenGLWidgets/qtopenglwidgetsexports.h \

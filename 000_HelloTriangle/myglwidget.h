@@ -2,16 +2,15 @@
 #define MYGLWIDGET_H
 
 #include <QOpenGLWidget>
-#include <QOpenGLFunctions_3_3_Core>
+#include <QOpenGLFunctions_4_5_Core>
 #include <QOpenGLExtraFunctions>
 
-class MyGLWidget : public QOpenGLWidget, protected QOpenGLFunctions_3_3_Core
+class MyGLWidget : public QOpenGLWidget, protected QOpenGLFunctions_4_5_Core
 {
     Q_OBJECT
 public:
-    MyGLWidget();
+    MyGLWidget(QWidget* parent = nullptr);
 
-private:
     GLuint VAO, VBO = 0;
     float vertices[9] = {
         -0.5f, -0.5f, 0.0f,
@@ -19,9 +18,11 @@ private:
         0.0f, 0.5f, 0.0f
     };
 
+private:
+
 protected:
-    void initializeOpenGLFunctions();
-    void paintGL();
+    virtual void initializeGL();
+    virtual void paintGL();
 
 };
 
