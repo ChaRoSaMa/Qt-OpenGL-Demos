@@ -1,0 +1,8 @@
+# ninja log v5
+3	528	1690370800918427268	000_HelloTriangle_autogen/timestamp	63789cf7a9ad7c0b
+3	528	1690370800918427268	000_HelloTriangle_autogen/mocs_compilation.cpp	63789cf7a9ad7c0b
+3	528	1690370800918427268	/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/000_HelloTriangle_autogen/timestamp	63789cf7a9ad7c0b
+3	528	1690370800918427268	/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/000_HelloTriangle_autogen/mocs_compilation.cpp	63789cf7a9ad7c0b
+528	4614	1690370805011753433	CMakeFiles/000_HelloTriangle.dir/mainwindow.cpp.o	d0bbb2c422e54d47
+528	4638	1690370805035086726	CMakeFiles/000_HelloTriangle.dir/main.cpp.o	a8f183f277596ef3
+528	5585	1690370805981751737	CMakeFiles/000_HelloTriangle.dir/000_HelloTriangle_autogen/mocs_compilation.cpp.o	572b3ee056b6534c
