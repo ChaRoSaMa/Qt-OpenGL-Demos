@@ -1,9 +1,0 @@
-/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/000_HelloTriangle.dir
-/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
-/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
-/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/install.dir
-/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/install/local.dir
-/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/install/strip.dir
-/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/000_HelloTriangle_autogen_timestamp_deps.dir
-/home/CharSaMa/Programs/Projects/OpenGL_Study/build-000_HelloTriangle-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/000_HelloTriangle_autogen.dir
