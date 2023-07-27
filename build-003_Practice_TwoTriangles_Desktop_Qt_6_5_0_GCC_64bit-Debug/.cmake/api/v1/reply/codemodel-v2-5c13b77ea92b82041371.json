@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-bf7876f0affb355902af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "003_Practice_TwoTriangles",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "003_Practice_TwoTriangles::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-003_Practice_TwoTriangles-Debug-deac1c6386d2439739fa.json",
+					"name" : "003_Practice_TwoTriangles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "003_Practice_TwoTriangles_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-003_Practice_TwoTriangles_autogen-Debug-1715e4d7b5d6afd11637.json",
+					"name" : "003_Practice_TwoTriangles_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "003_Practice_TwoTriangles_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-003_Practice_TwoTriangles_autogen_timestamp_deps-Debug-1c4b6e494dc37262d3ed.json",
+					"name" : "003_Practice_TwoTriangles_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/CharSaMa/Programs/Projects/OpenGL_Study/build-003_Practice_TwoTriangles_Desktop_Qt_6_5_0_GCC_64bit-Debug",
+		"source" : "/home/CharSaMa/Programs/Projects/OpenGL_Study/003_Practice_TwoTriangles"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
