@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="MyGLWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuClear">
+    <property name="title">
+     <string>Paint</string>
+    </property>
+    <addaction name="actionClear"/>
+    <addaction name="separator"/>
+    <addaction name="actionDraw_Rect"/>
+    <addaction name="actionDraw_Circle"/>
+    <addaction name="actionDraw_Triangle"/>
+   </widget>
+   <widget class="QMenu" name="menuRender">
+    <property name="title">
+     <string>Render</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionGL_FILL"/>
+    <addaction name="actionGL_LINE"/>
+   </widget>
+   <addaction name="menuClear"/>
+   <addaction name="menuRender"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionClear">
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="actionDraw_Rect">
+   <property name="text">
+    <string>Draw Rect</string>
+   </property>
+  </action>
+  <action name="actionDraw_Circle">
+   <property name="text">
+    <string>Draw Circle</string>
+   </property>
+  </action>
+  <action name="actionDraw_Triangle">
+   <property name="text">
+    <string>Draw Triangles</string>
+   </property>
+  </action>
+  <action name="actionGL_FILL">
+   <property name="text">
+    <string>GL_FILL</string>
+   </property>
+  </action>
+  <action name="actionGL_LINE">
+   <property name="text">
+    <string>GL_LINE</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyGLWidget</class>
+   <extends>QWidget</extends>
+   <header>myglwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
