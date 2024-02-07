@@ -1,5 +1,5 @@
 # Qt-OpenGL-Demos
-I follow LearnOpenGL[!https://learnopengl.com/], and write these code.
+I follow [LearnOpenGL](https://learnopengl.com/), and write these code.
 
 # Why Qt?
 Thanks to QtWidget, it is possible to focus more on the openGL itself rather than create window and solve various widget events.

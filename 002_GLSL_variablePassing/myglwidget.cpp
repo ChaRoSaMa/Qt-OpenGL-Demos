@@ -16,30 +16,38 @@ void MyGLWidget::initializeGL()
     glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
 
+    glGenVertexArrays(1, &VAO);
+    glBindVertexArray(VAO); // start record
+
     glGenBuffers(1, &VBO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+    glVertexAttribPointer(0, 3, GL_FLOAT, false, 3 * sizeof(GLfloat), (void*)0);
+    glEnableVertexAttribArray(0);
 
+    glGenBuffers(1, &EBO);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+
+
+    glBindVertexArray(0); // end record
+
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+
+
+
+    // init GLSL
     shaderProgram.addShaderFromSourceFile(QOpenGLShader::Fragment, ":/fragmentShader.frag");
     shaderProgram.addShaderFromSourceFile(QOpenGLShader::Vertex, ":/vertexShader.vert");
     shaderProgram.link();
-
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(GLfloat), (void*)0 );
-    glEnableVertexAttribArray(0);
-
 }
 
 void MyGLWidget::paintGL()
 {
-    // Here we didn't use VAO, cause we have already initialized
-    // the state of openGL, and we don't draw multiple graphics
     shaderProgram.bind();
-    glBindVertexArray(VBO);
-    glDrawArrays(GL_TRIANGLES, 0, 3);
-}
-
-void MyGLWidget::resizeGL()
-{
+    glBindVertexArray(VAO);
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
 }
 
