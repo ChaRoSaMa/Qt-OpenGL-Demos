@@ -1,0 +1,48 @@
+#include "myglwidget.h"
+
+MyGLWidget::MyGLWidget(QWidget *parent)
+    : QOpenGLWidget(parent)
+{
+
+}
+
+void MyGLWidget::initializeGL()
+{
+    // init functions ptr to make them point to the right memory
+    initializeOpenGLFunctions();
+
+    // use specific color to clear the screen
+    // GL_COLOR_BUFFER_BIT focus on the color, so just use it
+    glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT);
+
+    glGenVertexArrays(1, &VAO);
+    glBindVertexArray(VAO);
+    // start recording
+
+    glGenBuffers(1, &VBO);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), (void*)0);
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), (void*)(3 * sizeof(GLfloat)));
+    glEnableVertexAttribArray(0);
+    glEnableVertexAttribArray(1);
+
+    // stop recording
+    glBindVertexArray(0);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+    // initialize shader
+    shaderProgram.addShaderFromSourceFile(QOpenGLShader::Fragment, ":/fragmentShader.frag");
+    shaderProgram.addShaderFromSourceFile(QOpenGLShader::Vertex, ":/vertexShader.vert");
+    shaderProgram.link();
+
+}
+
+void MyGLWidget::paintGL()
+{
+    glBindVertexArray(VAO);
+    shaderProgram.bind();
+    glDrawArrays(GL_TRIANGLES, 0, 3);
+}
+
