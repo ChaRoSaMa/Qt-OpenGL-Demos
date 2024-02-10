@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>texture/Texturelabs_Brick_141S.jpg</file>
+        <file>texture/1</file>
+    </qresource>
+</RCC>
